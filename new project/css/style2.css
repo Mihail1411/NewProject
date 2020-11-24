@@ -1,0 +1,376 @@
+
+  body {
+    font-size: 100%;
+    font-family: "PT Sans", sans-serif;
+    color: #505260;
+    background-color: white;
+    
+  }
+  
+
+.kluch{
+    position: absolute;
+  width: 25%;
+  height: 24%;
+  left: 8%;
+  top: 12%;
+  
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  }
+  .sootv{
+     position: absolute;
+  width: 28%;
+  height: 10%;
+  left: 78%;
+  top: 12%;
+  
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+     
+  }
+  
+  .word-exclude{
+     position: absolute;
+  width: 25%;
+  height: 10%;
+  left: 9%;
+  top: 22%;
+  
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  
+  color: #ffffff;}
+  .kilo{
+  
+  position: absolute;
+  width: 25%;
+  height: 10%;
+  left: 65%;
+  top: 32%;
+  
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  }
+  .region{
+     position: absolute;
+  width: 25%;
+  height: 10%;
+  left: 9%;
+  top: 32%;
+  
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  }
+  
+  .zak{
+     
+  position: absolute;
+  width: 25%;
+  height: 10%;
+  left: 9%;
+  top: 42%;
+  
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  
+  color: #ffffff;
+  }
+  .zaver{
+     
+  position: absolute;
+  width: 25%;
+  height: 10%;
+  left: 9%;
+  top: 60%;
+  
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  
+  color: #ffffff;
+  }
+  .otm{
+     
+  position: absolute;
+  width: 25%;
+  height: 10%;
+  left: 25%;
+  top: 60%;
+  
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  
+  color: #ffffff;
+  }
+  .plm{
+  position: absolute;
+  width: 25%;
+  height: 10%;
+  left: 39%;
+  top: 60%;
+  
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  
+  color: #ffffff;
+  }
+  .zen{
+     
+  position: absolute;
+  width: 25%;
+  height: 10%;
+  left: 55%;
+  top: 60%;
+  
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  }
+  .tire{
+     
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  left:82.5%;
+  top: 60%;
+  
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  }
+  /*Регулировка положения стобцов в форме заявки */
+  .row {
+   display: -ms-flexbox; 
+   display: flex;
+   -ms-flex-wrap: wrap; 
+   flex-wrap: wrap;
+   margin-top: 100px;
+  }
+  .col-25 {
+   -ms-flex: 20%; 
+   flex: 20%;
+  }
+  
+  .col-50 {
+   -ms-flex: 90%; 
+   flex: 90%;
+  }
+  
+  .col-75 {
+   -ms-flex: 95%; 
+   flex: 95%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+   padding: 0px 0px;
+  }
+
+
+
+  
+  .container {
+      position: absolute;
+     width: 80%;
+     height: 70%;
+     left: 10%;
+     top: 20%;
+   background-color: transparent;
+   margin-top: 10px;
+   border: none;
+   border-radius: 15px;
+  }
+
+
+
+  .btnffor{
+      position: absolute;
+    width: 15%;
+    height: 7%;
+    top:79%;
+    left: 72%;
+    border-radius: 30px;
+    color: #000000;
+    background-color:  rgb(238, 255, 0);
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  
+
+  }
+  .btnfform{
+    position: absolute;
+  width: 12%;
+  height: 7%;
+  top:79%;
+  left: 55%;
+  border-radius: 30px;
+  color: #000000;
+  background-color:  rgb(238, 255, 0);
+  font-size: 17px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center
+
+
+}
+  /*Форма заявки(поля)*/
+  .isklsl {
+      position: absolute;
+   width: 70%;
+   top: 23%;
+   padding: 1px;
+     left: 26%;
+     font-family:  'Calibri', sans-serif;
+     font-size: 15px;
+    border-radius: 30px;
+    }
+  
+.klichsl {
+   position: absolute;
+   width: 50%;
+   top: 12%;
+   padding: 0px;
+   left: 26%;
+    border-radius: 30px;
+     font-family:  'Calibri', sans-serif;
+     font-size: 15px;
+     outline: none;
+    
+    }
+ .vibor {
+     position: absolute;
+   width: 35%;
+   top: 32.5%;
+   padding: 1px;
+     left: 26%;
+     font-family:  'Calibri', sans-serif;
+     font-size: 15px;
+    border-radius: 30px;
+    }
+  .kilomet {
+      position: absolute;
+   width: 17%;
+   top: 32.5%;
+   padding: 1px;
+     left: 79%;
+     font-family:  'Calibri', sans-serif;
+     font-size: 15px;
+     border-radius: 30px;
+    }
+    .zenak {
+        position: absolute;
+        width: 11%;
+        top: 60.5%;
+        padding: 1px;
+        left: 70%;
+        font-family:  'Calibri', sans-serif;
+        font-size: 15px;
+        border-radius: 30px;
+    }
+    .zenakk {
+        position: absolute;
+        width: 11%;
+        top: 60.5%;
+        padding: 1px;
+        left: 85%;
+        font-family:  'Calibri', sans-serif;
+        font-size: 15px;
+        border-radius: 30px;
+    }
+  
+  .registerbtn {
+   background-color: #4CAF50;
+   color: white;
+     width: 100px;
+   margin-top: 239px;
+     margin-left: 800px;
+   
+   border: none;
+   cursor: pointer;
+  
+  }
+  
+  .registerbtn:hover {
+   opacity:1;
+  }
+  
+     
+  
+  
+  .col-50 fname{
+     font-size: 50px;
+  }
+  
+  label {
+   margin-bottom: 10px;
+   display: block;
+  }
+  
+  .icon-container {
+   margin-bottom: 20px;
+   padding: 7px 0;
+   font-size: 96px;
+  }
+  
+  .form2{
+   width: 1139px;
+   height: 215px;
+  margin-right: 900px;
+  background-color: #f2f2f2;
+  margin-top: 390px;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  }
+  /*
+  input[type=tt21] {
+  width: 230px;
+  margin-top: 590px;
+  outline: 0;
+  }
+  
